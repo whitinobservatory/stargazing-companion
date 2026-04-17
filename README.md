@@ -1,6 +1,6 @@
 # stargazing-companion
 
-| | dark | light | print |
+| | dark version | light version | print version |
 | --- | --- | --- | --- |
 | Python code<br>raw graphic<br>with Starplot | [![stargazing-companion-dark-raw.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-dark-raw.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-dark-raw.png) | [![stargazing-companion-light-raw.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-light-raw.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-light-raw.png) | [![stargazing-companion-print-raw.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-print-raw.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-print-raw.pdf) |
 | Bash script<br>processed graphic<br>with ImageMagick | [![stargazing-companion-dark-proc.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-dark-proc.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-dark-proc.png) | [![stargazing-companion-light-proc.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-light-proc.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-light-proc.png) | [![stargazing-companion-print-proc.png](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-print-proc.png)](https://observatory.wellesley.edu/stargazing/example/stargazing-companion-print-proc.pdf) |
