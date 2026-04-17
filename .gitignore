@@ -2,6 +2,6 @@
 duckdb-extensions/
 *.bsp
 *.parquet
-*.otf
 *.ttf
+*.otf
 logo-*
