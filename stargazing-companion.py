@@ -9,7 +9,7 @@
 # core python code
 # creates dark background graphic, light background graphic, sensible printable graphic
 # python required environment
-# requires at least python version 3.11
+# requires at least python version 3.10
 # tested with python version 3.13.5
 # starplot required dependency, https://starplot.dev/installation/
 # requires at least starplot version 0.19
@@ -25,8 +25,8 @@ from starplot import ZenithPlot, Observer, Planet, callables, _
 from starplot.styles import PlotStyle, ObjectStyle, MarkerStyle, MarkerSymbolEnum, FillStyleEnum, ZOrderEnum, LabelStyle, FontWeightEnum, extensions
 
 # required dependencies check
-if version_info < (3,11):
-    exit("python version at least 3.11 is not installed, exiting")
+if version_info < (3,10):
+    exit("python version at least 3.10 is not installed, exiting")
 try:
     if version("starplot") < "0.19":
         exit("starplot version at least 0.19 is not installed, exiting")
