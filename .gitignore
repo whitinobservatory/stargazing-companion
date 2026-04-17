@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+duckdb-extensions/
+*.bsp
+*.parquet
+*.otf
+*.ttf
+logo-*
