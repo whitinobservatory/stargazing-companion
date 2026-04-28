@@ -24,7 +24,7 @@ municipality="Wellesley, MA" # <- USER EDIT
 # set observer time
 # note: consider middle date 14th for Feb, 15th for Apr/Jun/Sep/Nov, 16th for Jan/Mar/May/Jul/Aug/Oct/Dec
 # note: Feb has 28/29 d, Apr/Jun/Sep/Nov have 30 d, Jan/Mar/May/Jul/Aug/Oct/Dec have 31 d
-# note: consider time2 21:00 for Feb/Mar/Apr, 22:00 for May/Jun/Jul, 21:00 for Aug/Sept/Oct, 20:00 Nov/Dec/Jan, for mid-northern temperate latitudes
+# note: consider date2 21:00 for Feb/Mar/Apr, 22:00 for May/Jun/Jul, 21:00 for Aug/Sept/Oct, 20:00 Nov/Dec/Jan, for mid-northern temperate latitudes
 date1="2026 Apr 1 · 10 PM" # <- USER EDIT
 date2="2026 Apr 15 · 9 PM" # <- USER EDIT
 date3="2026 Apr 30 · 8 PM" # <- USER EDIT
