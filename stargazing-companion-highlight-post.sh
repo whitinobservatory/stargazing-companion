@@ -74,7 +74,7 @@ if [ ! -x "$(command -v wget)" ] && [ ! -x "$(command -v curl)" ] ; then
 	echo "wget or curl is not installed, warning, continuing"
 fi
 
-plot="dark"
+plot="dark-sky-gradient"
 
 # trim raw graphic
 convert -quality 100% -trim +repage stargazing-companion-highlight-raw.png stargazing-companion-highlight-proc.png
