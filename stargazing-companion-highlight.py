@@ -66,7 +66,8 @@ moon = Moon.get( observer = observer )
 moon_later = Moon.get( observer = observer_later )
 
 # configure horizon plot, dark sky gradient background graphic, https://starplot.dev/reference-horizonplot/
-p = HorizonPlot( altitude = ( 0, 39.25 ), azimuth = ( 255.9375, 300.9375 ), observer = observer, style = PlotStyle().extend( extensions.BLUE_GOLD, extensions.GRADIENT_PRE_DAWN ), resolution = 2048 )
+# note: optimize chosen altitude and azimuth ranges
+p = HorizonPlot( altitude = ( 0, 39.25 ), azimuth = ( 255.9375, 300.9375 ), observer = observer, style = PlotStyle().extend( extensions.BLUE_GOLD, extensions.GRADIENT_PRE_DAWN ), resolution = 2048 ) # <- USER EDIT
 # plot planets of interest, omit planets not typically seen by visual observers, specify color
 p.marker( ra = mercury.ra, dec = mercury.dec, label = "MERCURY", 
     style = { "marker": { "symbol": MarkerSymbolEnum.CIRCLE, "size": 28, "fill": FillStyleEnum.LEFT, "zorder": ZOrderEnum.LAYER_3, "alpha": 1.0, "color": "#cb8e29", "fill": "full" },
@@ -105,6 +106,7 @@ p.stars( where = [ _.magnitude < 4.0 ] , where_labels = [ _.magnitude < 2.375 ] 
 p.stars( where = [ _.magnitude <= 3.35, _.dec >= 55.0, _.dec <= 65.0, _.ra >= 0 * 15.0, _.ra <= 2 * 15.0 ], size_fn = lambda d: callables.size_by_magnitude( d ) * 2, # <- USER EDIT
     style__marker__symbol = "star_8", style__label__offset_x = 8, style__label__offset_y = -8, style__label__border_width = 0, where_labels = [ False ] )             # <- USER EDIT
 # create horizon label
-p.horizon( labels = { 270: "WEST\n\n" } )
+# note: optimize labels for chosen altitude and azimuth ranges
+p.horizon( labels = { 270: "WEST\n\n" } ) # <- USER EDIT
 # save plot graphic
 p.export( "stargazing-companion-highlight-raw.png", transparent = False, padding = 0.0 )
