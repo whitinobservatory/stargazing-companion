@@ -2,7 +2,7 @@
 
 # Stargazing Companion Highlight, https://github.com/whitinobservatory/stargazing-companion/
 # with gratitude to Steve Berardi and Starplot, https://github.com/steveberardi/starplot/blob/main/CITATION.cff
-# 2026 Feb 26 - Jonathan Kemp, initial version, Whitin Observatory
+# 2026 Feb 27 - Jonathan Kemp, initial version, Whitin Observatory
 # 2026 May 17 - Jonathan Kemp, release version, Whitin Observatory
 
 # stargazing companion highlight
