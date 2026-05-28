@@ -16,6 +16,9 @@
 # wget or curl optional dependency, in lieu of manual download logo graphic
 # tested with wget 1.21.4 and curl 8.5.0
 
+# note: ubuntu linux installation hint, root privileges, "apt install imagemagick"
+# note: windows installation hint to support ubuntu, admin privileges, "wsl --install"
+
 # user general settings
 # set observer geographic coordinates
 coordinates="42° 18' N · 71° 18' W" # <- USER EDIT
