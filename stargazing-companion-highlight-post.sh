@@ -12,7 +12,7 @@
 # tested with bash version 5.2.21
 # imagemagick required dependency, https://imagemagick.org/download/
 # tested with imagemagick version 6.9.12
-# uses imagemagick's convert, mogrify, composite functionality
+# uses imagemagick's convert, mogrify, and composite functionality
 # wget or curl optional dependency, in lieu of manual download logo graphic
 # tested with wget 1.21.4 and curl 8.5.0
 
