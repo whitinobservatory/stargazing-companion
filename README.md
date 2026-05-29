@@ -16,4 +16,4 @@
 
 With gratitude to [Steve Berardi and Starplot](https://github.com/steveberardi/starplot/blob/main/CITATION.cff).  With acknowledgment of [ImageMagick](https://imagemagick.org/).
 
-If you use this code, find it useful, have bug fixes, or have suggestions for improvement, please let me know.  I've developed these tools for personal use, but would be happy to know that others are also finding them useful too.  Please e-mail me at [jk116@wellesley.edu](mailto:jk116@wellesley.edu).  Thanks, and enjoy.
+If you use this code, find it useful, have bug fixes, or have suggestions for improvement, [please let me know](https://sites.google.com/wellesley.edu/jk116).  I've developed these tools for personal use, but would be happy to know that others are also finding them useful too.  Thanks, and enjoy.
