@@ -1,3 +1,7 @@
+examples/
+.gitignore
+LICENSE
+README.md
 .ipynb_checkpoints/
 duckdb-extensions/
 *.bsp
