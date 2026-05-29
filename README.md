@@ -12,4 +12,8 @@
 | [Python](https://www.python.org/) (≥3.10) code<br>[`stargazing‑companion‑highlight.py`](https://github.com/whitinobservatory/stargazing-companion/blob/main/stargazing-companion-highlight.py)<br>[`stargazing‑companion‑highlight.ipynb`](https://github.com/whitinobservatory/stargazing-companion/blob/main/stargazing-companion-highlight.ipynb)<br>raw graphic<br>using [Starplot](https://starplot.dev/) (≥0.19) library | [![stargazing-companion-highlight-raw.png](https://raw.githubusercontent.com/whitinobservatory/stargazing-companion/refs/heads/main/examples/stargazing-companion-highlight-raw.png)](https://raw.githubusercontent.com/whitinobservatory/stargazing-companion/refs/heads/main/examples/stargazing-companion-highlight-raw.png) |
 | [Bash](https://www.gnu.org/software/bash/) script<br>[`stargazing‑companion‑highlight‑post.sh`](https://github.com/whitinobservatory/stargazing-companion/blob/main/stargazing-companion-highlight-post.sh)<br>processed graphic<br>using [ImageMagick](https://imagemagick.org/) suite | [![stargazing-companion-highlight-proc.png](https://raw.githubusercontent.com/whitinobservatory/stargazing-companion/refs/heads/main/examples/stargazing-companion-highlight-proc.png)](https://raw.githubusercontent.com/whitinobservatory/stargazing-companion/refs/heads/main/examples/stargazing-companion-highlight-proc.png) |
 
-with gratitude to [Steve Berardi and Starplot](https://github.com/steveberardi/starplot/blob/main/CITATION.cff)
+# notes
+
+With gratitude to [Steve Berardi and Starplot](https://github.com/steveberardi/starplot/blob/main/CITATION.cff).  With acknowledgment of [ImageMagick](https://imagemagick.org/).
+
+If you use this code, find it useful, have bug fixes, or have suggestions for improvement, please let me know.  I've developed these tools for personal use, but would be happy to know that others are also finding them useful too.  Please e-mail me at [jk116@wellesley.edu](mailto:jk116@wellesley.edu).  Thanks, and enjoy.
